@@ -1,0 +1,6 @@
+﻿  FaceRecognition.cpp
+FaceRecognition.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::resize(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::Size_<int>,double,double,int)" (?resize@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@V?$Size_@H@1@NNH@Z)
+FaceRecognition.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@HH@Z)
+FaceRecognition.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::equalizeHist(class cv::_InputArray const &,class cv::_OutputArray const &)" (?equalizeHist@cv@@YAXAEBV_InputArray@1@AEBV_OutputArray@1@@Z)
+FaceRecognition.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::rectangle(class cv::_InputOutputArray const &,class cv::Rect_<int>,class cv::Scalar_<double> const &,int,int,int)" (?rectangle@cv@@YAXAEBV_InputOutputArray@1@V?$Rect_@H@1@AEBV?$Scalar_@N@1@HHH@Z)
+F:\OpenCV\FaceRecognition\x64\Release\FaceRecognition.exe : fatal error LNK1120: 4 个无法解析的外部命令
